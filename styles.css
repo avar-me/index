@@ -264,6 +264,18 @@ main {
   opacity: 0.85;
 }
 
+.load-error {
+  padding: 1.25rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text-muted);
+}
+
+.load-error code {
+  font-size: 0.9em;
+}
+
 @media (max-width: 480px) {
   .card-top {
     flex-direction: column;

@@ -1,0 +1,198 @@
+{
+  "sections": [
+    {
+      "id": "sites",
+      "title": "Сайты проекта",
+      "items": [
+        {
+          "title": "avar.me",
+          "url": "https://avar.me",
+          "status": "stable",
+          "description": "Главный сайт: словарь, материалы и точка входа в экосистему."
+        },
+        {
+          "title": "dev.avar.me",
+          "url": "https://dev.avar.me",
+          "status": "dev",
+          "description": "Стенд новой версии сайта avar.me."
+        },
+        {
+          "title": "en.avar.me",
+          "url": "https://en.avar.me",
+          "status": "test",
+          "description": "Англо-аварский словарь — около 3000 слов."
+        },
+        {
+          "title": "cg.avar.me",
+          "url": "https://cg.avar.me",
+          "status": "dev",
+          "description": "Реконструкция публикации Cyril Graham в <em>Royal Asiatic Society</em> (1881) — первый известный англо-аварский словарь."
+        },
+        {
+          "title": "tr.avar.me",
+          "url": "https://tr.avar.me",
+          "status": "plan",
+          "description": "Турецко-аварский словарь."
+        },
+        {
+          "title": "cyrillic.avar.me",
+          "url": "https://cyrillic.avar.me",
+          "status": "plan",
+          "description": "Аварская кириллица: описание алфавита и материалы по вопросам кириллической письменности."
+        },
+        {
+          "title": "adzham.avar.me",
+          "url": "https://adzham.avar.me",
+          "status": "plan",
+          "description": "Аджамская письменность: описание, правила и справочные материалы."
+        }
+      ]
+    },
+    {
+      "id": "compute",
+      "title": "Compute и инструменты",
+      "items": [
+        {
+          "title": "python.avar.me",
+          "url": "https://python.avar.me",
+          "status": "plan",
+          "description": "Библиотеки со словарём для Python 3."
+        },
+        {
+          "title": "js.avar.me",
+          "url": "https://js.avar.me",
+          "status": "plan",
+          "description": "Клиентские библиотеки для встраивания перевода и словаря на сайты."
+        },
+        {
+          "title": "corpus.avar.me",
+          "url": "https://corpus.avar.me",
+          "aliases": ["https://korpus.avar.me"],
+          "status": "plan",
+          "description": "Текстовый корпус аварского языка: поиск, разметка, примеры употребления."
+        },
+        {
+          "title": "ml.avar.me",
+          "url": "https://ml.avar.me",
+          "status": "plan",
+          "description": "Модели и эксперименты: машинный перевод, NLP, обучение на корпусе и словарях."
+        },
+        {
+          "title": "keyboards.avar.me",
+          "url": "https://keyboards.avar.me",
+          "status": "plan",
+          "description": "Раскладки и инструменты ввода для разных систем письма аварского языка."
+        }
+      ]
+    },
+    {
+      "id": "bots",
+      "title": "Telegram-боты",
+      "items": [
+        {
+          "title": "@avarme_bot",
+          "url": "https://t.me/avarme_bot",
+          "status": "stable",
+          "description": "Бот перевода <strong>аварский → русский</strong> (av-ru)."
+        },
+        {
+          "title": "@ruavarme_bot",
+          "url": "https://t.me/ruavarme_bot",
+          "status": "stable",
+          "description": "Бот перевода <strong>русский → аварский</strong> (ru-av)."
+        },
+        {
+          "title": "@avarme_miniapp_bot",
+          "url": "https://t.me/avarme_miniapp_bot",
+          "status": "test",
+          "description": "Mini App с сайтом avar.me внутри Telegram."
+        },
+        {
+          "title": "@avarme_test_bot",
+          "url": "https://t.me/avarme_test_bot",
+          "status": "test",
+          "description": "Mini App с тестами для изучающих язык."
+        },
+        {
+          "title": "@dev_avar_me_bot",
+          "url": "https://t.me/dev_avar_me_bot",
+          "status": "dev",
+          "description": "Стенд разработки Telegram Mini App. Нужна проверка качества; отзывы — на <a href=\"mailto:admin@avar.me\">admin@avar.me</a>."
+        }
+      ]
+    },
+    {
+      "id": "channels",
+      "title": "Каналы и сообщества",
+      "items": [
+        {
+          "title": "@avarlangme",
+          "url": "https://t.me/avarlangme",
+          "status": "stable",
+          "description": "Главный канал проекта avar.me."
+        },
+        {
+          "title": "группа avarme_chat",
+          "url": "https://t.me/avarme_chat",
+          "status": "stable",
+          "description": "Обсуждение сайта, ботов и идей по развитию проекта."
+        },
+        {
+          "title": "avar_kino",
+          "url": "https://t.me/avar_kino",
+          "status": "stable",
+          "description": "Аварские ролики из кино."
+        },
+        {
+          "title": "avar_film",
+          "url": "https://t.me/avar_film",
+          "status": "stable",
+          "description": "Мультфильмы на аварском языке."
+        }
+      ]
+    },
+    {
+      "id": "dictionaries",
+      "title": "Словари и языковые ресурсы",
+      "items": [
+        {
+          "title": "avar-russian-dictionary",
+          "url": "https://github.com/avar-me/avar-russian-dictionary",
+          "status": "stable",
+          "description": "Исходные данные словаря для <a href=\"https://avar.me\">avar.me</a> и основных ботов."
+        },
+        {
+          "title": "avar-alphabet",
+          "url": "https://github.com/avar-me/avar-alphabet",
+          "status": "plan",
+          "description": "Построение подходящего алфавита для аварской письменности."
+        }
+      ]
+    },
+    {
+      "id": "reference",
+      "title": "Справочники и публикации",
+      "items": [
+        {
+          "title": "Луна и Солнце",
+          "url": "https://avar-me.github.io/moon_and_sun/",
+          "status": "stable",
+          "description": "Книга-справочник по прикладной астрономии для лунных и солнечных календарей."
+        }
+      ]
+    },
+    {
+      "id": "archive",
+      "title": "Архив",
+      "muted": true,
+      "items": [
+        {
+          "title": "Instagram @avar.me",
+          "url": "https://www.instagram.com/avar.me",
+          "status": "deprecated",
+          "description": "Аккаунт больше не ведётся; актуальные новости — в <a href=\"https://t.me/avarlangme\">https://t.me/avarlangme</a>."
+        }
+      ]
+    }
+  ]
+}
