@@ -24,23 +24,43 @@
   </header>
 
   <main>
-    <nav class="legend" aria-label="Статусы сервисов">
-      <span class="legend-item"><span class="badge badge-stable">стабильно</span> работает в продакшене</span>
-      <span class="legend-item"><span class="badge badge-test">тестирование</span> можно пробовать, возможны сбои</span>
-      <span class="legend-item"><span class="badge badge-dev">разработка</span> активно делается</span>
-      <span class="legend-item"><span class="badge badge-plan">в планах</span> задумано, ещё не готово</span>
-      <span class="legend-item"><span class="badge badge-deprecated">устарело</span> не поддерживается</span>
-    </nav>
-
-    <section class="group" id="core">
-      <h2>Основные сервисы</h2>
+    <section class="group" id="sites">
+      <h2>Сайты проекта</h2>
       <div class="cards">
         <article class="card">
           <div class="card-top">
-            <h3><a href="https://avar.me">avar.me</a></h3>
+            <h3>avar.me</h3>
             <span class="badge badge-stable">стабильно</span>
           </div>
-          <p>Главный сайт проекта: словарь, материалы и точка входа в экосистему.</p>
+          <p class="card-url"><a href="https://avar.me">https://avar.me</a></p>
+          <p class="card-desc">Главный сайт: словарь, материалы и точка входа в экосистему.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <h3>dev.avar.me</h3>
+            <span class="badge badge-dev">разработка</span>
+          </div>
+          <p class="card-url"><a href="https://dev.avar.me">https://dev.avar.me</a></p>
+          <p class="card-desc">Стенд новой версии сайта avar.me.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <h3>en.avar.me</h3>
+            <span class="badge badge-test">тестирование</span>
+          </div>
+          <p class="card-url"><a href="https://en.avar.me">https://en.avar.me</a></p>
+          <p class="card-desc">Англо-аварский словарь — около 3000 слов.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <h3>cg.avar.me</h3>
+            <span class="badge badge-stable">стабильно</span>
+          </div>
+          <p class="card-url"><a href="https://cg.avar.me">https://cg.avar.me</a></p>
+          <p class="card-desc">Реконструкция публикации Cyril Graham в <em>Royal Asiatic Society</em> (1881) — первый известный англо-аварский словарь.</p>
         </article>
       </div>
     </section>
@@ -50,42 +70,47 @@
       <div class="cards">
         <article class="card">
           <div class="card-top">
-            <h3><a href="https://t.me/avarme_bot">@avarme_bot</a></h3>
+            <h3>@avarme_bot</h3>
             <span class="badge badge-stable">стабильно</span>
           </div>
-          <p>Бот перевода <strong>аварский → русский</strong> (av-ru).</p>
+          <p class="card-url"><a href="https://t.me/avarme_bot">https://t.me/avarme_bot</a></p>
+          <p class="card-desc">Бот перевода <strong>аварский → русский</strong> (av-ru).</p>
         </article>
 
         <article class="card">
           <div class="card-top">
-            <h3><a href="https://t.me/ruavarme_bot">@ruavarme_bot</a></h3>
+            <h3>@ruavarme_bot</h3>
             <span class="badge badge-stable">стабильно</span>
           </div>
-          <p>Бот перевода <strong>русский → аварский</strong> (ru-av).</p>
+          <p class="card-url"><a href="https://t.me/ruavarme_bot">https://t.me/ruavarme_bot</a></p>
+          <p class="card-desc">Бот перевода <strong>русский → аварский</strong> (ru-av).</p>
         </article>
 
         <article class="card">
           <div class="card-top">
-            <h3><a href="https://t.me/avarme_miniapp_bot">@avarme_miniapp_bot</a></h3>
+            <h3>@avarme_miniapp_bot</h3>
             <span class="badge badge-test">тестирование</span>
           </div>
-          <p>Mini App с сайтом avar.me внутри Telegram.</p>
+          <p class="card-url"><a href="https://t.me/avarme_miniapp_bot">https://t.me/avarme_miniapp_bot</a></p>
+          <p class="card-desc">Mini App с сайтом avar.me внутри Telegram.</p>
         </article>
 
         <article class="card">
           <div class="card-top">
-            <h3><a href="https://t.me/avarme_test_bot">@avarme_test_bot</a></h3>
+            <h3>@avarme_test_bot</h3>
             <span class="badge badge-test">тестирование</span>
           </div>
-          <p>Mini App с тестами для изучающих язык.</p>
+          <p class="card-url"><a href="https://t.me/avarme_test_bot">https://t.me/avarme_test_bot</a></p>
+          <p class="card-desc">Mini App с тестами для изучающих язык.</p>
         </article>
 
         <article class="card">
           <div class="card-top">
-            <h3><a href="https://t.me/dev_avar_me_bot">@dev_avar_me_bot</a></h3>
+            <h3>@dev_avar_me_bot</h3>
             <span class="badge badge-dev">разработка</span>
           </div>
-          <p>Стенд разработки Telegram Mini App. Нужна проверка качества; отзывы — на <a href="mailto:admin@avar.me">admin@avar.me</a>.</p>
+          <p class="card-url"><a href="https://t.me/dev_avar_me_bot">https://t.me/dev_avar_me_bot</a></p>
+          <p class="card-desc">Стенд разработки Telegram Mini App. Нужна проверка качества; отзывы — на <a href="mailto:admin@avar.me">admin@avar.me</a>.</p>
         </article>
       </div>
     </section>
@@ -95,34 +120,38 @@
       <div class="cards">
         <article class="card">
           <div class="card-top">
-            <h3><a href="https://t.me/avarlangme">@avarlangme</a></h3>
+            <h3>@avarlangme</h3>
             <span class="badge badge-stable">стабильно</span>
           </div>
-          <p>Главный канал проекта avar.me.</p>
+          <p class="card-url"><a href="https://t.me/avarlangme">https://t.me/avarlangme</a></p>
+          <p class="card-desc">Главный канал проекта avar.me.</p>
         </article>
 
         <article class="card">
           <div class="card-top">
-            <h3><a href="https://t.me/avarme_chat">группа avarme_chat</a></h3>
+            <h3>группа avarme_chat</h3>
             <span class="badge badge-stable">стабильно</span>
           </div>
-          <p>Обсуждение сайта, ботов и идей по развитию проекта.</p>
+          <p class="card-url"><a href="https://t.me/avarme_chat">https://t.me/avarme_chat</a></p>
+          <p class="card-desc">Обсуждение сайта, ботов и идей по развитию проекта.</p>
         </article>
 
         <article class="card">
           <div class="card-top">
-            <h3><a href="https://t.me/avar_kino">avar_kino</a></h3>
+            <h3>avar_kino</h3>
             <span class="badge badge-stable">стабильно</span>
           </div>
-          <p>Аварские ролики из кино.</p>
+          <p class="card-url"><a href="https://t.me/avar_kino">https://t.me/avar_kino</a></p>
+          <p class="card-desc">Аварские ролики из кино.</p>
         </article>
 
         <article class="card">
           <div class="card-top">
-            <h3><a href="https://t.me/avar_film">avar_film</a></h3>
+            <h3>avar_film</h3>
             <span class="badge badge-stable">стабильно</span>
           </div>
-          <p>Мультфильмы на аварском языке.</p>
+          <p class="card-url"><a href="https://t.me/avar_film">https://t.me/avar_film</a></p>
+          <p class="card-desc">Мультфильмы на аварском языке.</p>
         </article>
       </div>
     </section>
@@ -132,47 +161,20 @@
       <div class="cards">
         <article class="card">
           <div class="card-top">
-            <h3><a href="https://en.avar.me">en.avar.me</a></h3>
-            <span class="badge badge-test">тестирование</span>
-          </div>
-          <p>Англо-аварский словарь — около 3000 слов.</p>
-        </article>
-
-        <article class="card">
-          <div class="card-top">
-            <h3><a href="https://cg.avar.me">cg.avar.me</a></h3>
+            <h3>avar-russian-dictionary</h3>
             <span class="badge badge-stable">стабильно</span>
           </div>
-          <p>Реконструкция публикации Cyril Graham в <em>Royal Asiatic Society</em> (1881) — первый известный англо-аварский словарь.</p>
+          <p class="card-url"><a href="https://github.com/avar-me/avar-russian-dictionary">https://github.com/avar-me/avar-russian-dictionary</a></p>
+          <p class="card-desc">Исходные данные словаря для <a href="https://avar.me">avar.me</a> и основных ботов.</p>
         </article>
 
         <article class="card">
           <div class="card-top">
-            <h3><a href="https://github.com/avar-me/avar-russian-dictionary">avar-russian-dictionary</a></h3>
-            <span class="badge badge-stable">стабильно</span>
-          </div>
-          <p>Исходные данные словаря для <a href="https://avar.me">avar.me</a> и основных ботов (GitHub).</p>
-        </article>
-
-        <article class="card">
-          <div class="card-top">
-            <h3><a href="https://github.com/avar-me/avar-alphabet">avar-alphabet</a></h3>
+            <h3>avar-alphabet</h3>
             <span class="badge badge-plan">в планах</span>
           </div>
-          <p>Построение подходящего алфавита для аварской письменности (GitHub).</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="group" id="dev">
-      <h2>Разработка</h2>
-      <div class="cards">
-        <article class="card">
-          <div class="card-top">
-            <h3><a href="https://dev.avar.me">dev.avar.me</a></h3>
-            <span class="badge badge-dev">разработка</span>
-          </div>
-          <p>Стенд новой версии сайта avar.me.</p>
+          <p class="card-url"><a href="https://github.com/avar-me/avar-alphabet">https://github.com/avar-me/avar-alphabet</a></p>
+          <p class="card-desc">Построение подходящего алфавита для аварской письменности.</p>
         </article>
       </div>
     </section>
@@ -182,10 +184,11 @@
       <div class="cards">
         <article class="card">
           <div class="card-top">
-            <h3><a href="https://avar-me.github.io/moon_and_sun/">Луна и Солнце</a></h3>
+            <h3>Луна и Солнце</h3>
             <span class="badge badge-stable">стабильно</span>
           </div>
-          <p>Книга-справочник по прикладной астрономии для лунных и солнечных календарей.</p>
+          <p class="card-url"><a href="https://avar-me.github.io/moon_and_sun/">https://avar-me.github.io/moon_and_sun/</a></p>
+          <p class="card-desc">Книга-справочник по прикладной астрономии для лунных и солнечных календарей.</p>
         </article>
       </div>
     </section>
@@ -195,18 +198,19 @@
       <div class="cards">
         <article class="card card-deprecated">
           <div class="card-top">
-            <h3><a href="https://www.instagram.com/avar.me">Instagram @avar.me</a></h3>
+            <h3>Instagram @avar.me</h3>
             <span class="badge badge-deprecated">устарело</span>
           </div>
-          <p>Аккаунт больше не ведётся; актуальные новости — в <a href="https://t.me/avarlangme">@avarlangme</a>.</p>
+          <p class="card-url"><a href="https://www.instagram.com/avar.me">https://www.instagram.com/avar.me</a></p>
+          <p class="card-desc">Аккаунт больше не ведётся; актуальные новости — в <a href="https://t.me/avarlangme">https://t.me/avarlangme</a>.</p>
         </article>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>Проект <a href="https://avar.me">avar.me</a> · связь: <a href="mailto:admin@avar.me">admin@avar.me</a></p>
-    <p class="footer-repo"><a href="https://github.com/avar-me/index">Исходники этой страницы</a></p>
+    <p>Проект <a href="https://avar.me">https://avar.me</a> · связь: <a href="mailto:admin@avar.me">admin@avar.me</a></p>
+    <p class="footer-repo"><a href="https://github.com/avar-me/index">https://github.com/avar-me/index</a></p>
   </footer>
 </body>
 </html>
