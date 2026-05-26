@@ -45,6 +45,24 @@
           "url": "https://adzham.avar.me",
           "status": "plan",
           "description": "Аджамская письменность: описание, правила и справочные материалы."
+        },
+        {
+          "title": "latin.avar.me",
+          "url": "https://latin.avar.me",
+          "status": "plan",
+          "description": "Латинская транслитерация: правила, таблицы соответствий и материалы по латинскому написанию аварского."
+        },
+        {
+          "title": "learn.avar.me",
+          "url": "https://learn.avar.me",
+          "status": "plan",
+          "description": "Обучение: курсы, грамматика и упражнения; связка с <a href=\"https://t.me/avarme_test_bot\">@avarme_test_bot</a>."
+        },
+        {
+          "title": "edu.avar.me",
+          "url": "https://edu.avar.me",
+          "status": "plan",
+          "description": "Образовательные материалы и программы для изучающих язык; дополнение к <a href=\"https://learn.avar.me\">learn.avar.me</a> и тестам в Telegram."
         }
       ]
     },
