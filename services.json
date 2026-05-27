@@ -104,6 +104,24 @@
       ]
     },
     {
+      "id": "mobile",
+      "title": "Мобильные приложения",
+      "items": [
+        {
+          "title": "iOS-приложение",
+          "url": "https://ios.avar.me",
+          "status": "plan",
+          "description": "Нативное приложение словаря: направления av-ru и ru-av, синхронизация с <a href=\"https://avar.me\">avar.me</a>."
+        },
+        {
+          "title": "Android-приложение",
+          "url": "https://android.avar.me",
+          "status": "plan",
+          "description": "Нативное приложение словаря: направления av-ru и ru-av, синхронизация с <a href=\"https://avar.me\">avar.me</a>."
+        }
+      ]
+    },
+    {
       "id": "bots",
       "title": "Telegram-боты",
       "items": [
