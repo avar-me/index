@@ -192,6 +192,12 @@
       "title": "Словари и языковые ресурсы",
       "items": [
         {
+          "title": "sources.avar.me",
+          "url": "https://sources.avar.me",
+          "status": "test",
+          "description": "Сбор исходных файлов для сервисов avar.me: словари, тексты, книги."
+        },
+        {
           "title": "avar-russian-dictionary",
           "url": "https://github.com/avar-me/avar-russian-dictionary",
           "status": "stable",
