@@ -116,7 +116,7 @@
         {
           "title": "iOS-приложение",
           "url": "https://ios.avar.me",
-          "status": "plan",
+          "status": "stable",
           "description": "Нативное приложение словаря: направления av-ru и ru-av, синхронизация с <a href=\"https://avar.me\">avar.me</a>."
         },
         {
