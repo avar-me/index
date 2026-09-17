@@ -139,7 +139,7 @@
         {
           "title": "phrasebook",
           "url": "https://github.com/avar-me/phrasebook",
-          "status": "stable",
+          "status": "plan",
           "description": "Русско-аварский разговорник: датасет из 84 тем и 2783 фраз для NLP, языковых приложений и обучения. Отдельный сайт пока не опубликован."
         },
         {
