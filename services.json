@@ -1,38 +1,86 @@
 {
   "sections": [
     {
-      "id": "sites",
-      "title": "Сайты проекта",
+      "id": "dictionaries",
+      "title": "Словари",
       "items": [
         {
           "title": "avar.me",
           "url": "https://avar.me",
           "status": "stable",
-          "description": "Главный сайт словаря: направления <strong>аварский → русский</strong> (av-ru) и <strong>русский → аварский</strong> (ru-av). Запущен в 2016-м году."
+          "description": "Главный сайт словаря: направления <strong>аварский → русский</strong> (av-ru) и <strong>русский → аварский</strong> (ru-av). Запущен в 2016-м году. Отдача переработана, включено кэширование на Cloudflare."
         },
         {
           "title": "dev.avar.me",
           "url": "https://dev.avar.me",
           "status": "dev",
-          "description": "Стенд новой версии сайта avar.me."
+          "description": "Стенд новой версии сайта avar.me (av-ru и ru-av). Общий шаблон, из которого собираются языковые словари ru/en/de/fr/uk/be/tr.avar.me — данные при сборке берутся из <a href=\"https://sources.avar.me\">sources.avar.me</a>."
+        },
+        {
+          "title": "ru.avar.me",
+          "url": "https://ru.avar.me",
+          "status": "test",
+          "description": "Аварско-русский и русско-аварский словарь на новом шаблоне — кандидат на замену словаря на главном сайте."
         },
         {
           "title": "en.avar.me",
           "url": "https://en.avar.me",
-          "status": "test",
-          "description": "Англо-аварский словарь — около 3000 слов."
+          "status": "experiment",
+          "description": "Аварско-английский и англо-аварский словарь, разметка выполнена с помощью Gemini."
+        },
+        {
+          "title": "de.avar.me",
+          "url": "https://de.avar.me",
+          "status": "experiment",
+          "description": "Аварско-немецкий и немецко-аварский словарь."
+        },
+        {
+          "title": "fr.avar.me",
+          "url": "https://fr.avar.me",
+          "status": "experiment",
+          "description": "Аварско-французский и французско-аварский словарь."
+        },
+        {
+          "title": "uk.avar.me",
+          "url": "https://uk.avar.me",
+          "status": "experiment",
+          "description": "Аварско-украинский и украинско-аварский словарь."
+        },
+        {
+          "title": "be.avar.me",
+          "url": "https://be.avar.me",
+          "status": "experiment",
+          "description": "Аварско-белорусский и белорусско-аварский словарь."
+        },
+        {
+          "title": "tr.avar.me",
+          "url": "https://tr.avar.me",
+          "status": "experiment",
+          "description": "Аварско-турецкий и турецко-аварский словарь. Первый шаг к серии тюркских словарей (az, kz, uz и другие) и работе над аварской латиницей."
+        },
+        {
+          "title": "az_slovar.avar.me",
+          "url": "https://az_slovar.avar.me",
+          "status": "experiment",
+          "description": "Азербайджанско-аварско-русский словарь. Данные извлечены из мобильного приложения «Dictionary in Avar language» (Pathways Publications, CC BY-NC 4.0)."
         },
         {
           "title": "cg.avar.me",
           "url": "https://cg.avar.me",
           "status": "test",
           "description": "Реконструкция публикации Cyril Graham в <em>Royal Asiatic Society</em> (1881) — первый известный англо-аварский словарь."
-        },
+        }
+      ]
+    },
+    {
+      "id": "scripts",
+      "title": "Письменность и алфавиты",
+      "items": [
         {
-          "title": "tr.avar.me",
-          "url": "https://tr.avar.me",
-          "status": "plan",
-          "description": "Турецко-аварский словарь."
+          "title": "alif.avar.me",
+          "url": "https://alif.avar.me",
+          "status": "test",
+          "description": "Латинский алфавит аварского языка: описание звуков, правила орфографии, сравнение систем латинизации (avar.me, Scientific, 1932, Forker, Saʿid, Умарилов и др.) и алгоритм транслитерации кириллица → латиница."
         },
         {
           "title": "cyrillic.avar.me",
@@ -47,40 +95,46 @@
           "description": "Аджамская письменность: описание, правила и справочные материалы."
         },
         {
-          "title": "latin.avar.me",
-          "url": "https://latin.avar.me",
+          "title": "avar-alphabet",
+          "url": "https://github.com/avar-me/avar-alphabet",
           "status": "plan",
-          "description": "Латинская транслитерация: правила, таблицы соответствий и материалы по латинскому написанию аварского."
-        },
-        {
-          "title": "learn.avar.me",
-          "url": "https://learn.avar.me",
-          "status": "plan",
-          "description": "Обучение: курсы, грамматика и упражнения; связка с <a href=\"https://t.me/avarme_test_bot\">@avarme_test_bot</a>."
-        },
-        {
-          "title": "edu.avar.me",
-          "url": "https://edu.avar.me",
-          "status": "plan",
-          "description": "Образовательные материалы и программы для изучающих язык; дополнение к <a href=\"https://learn.avar.me\">learn.avar.me</a> и тестам в Telegram."
+          "description": "Построение подходящего алфавита для аварской письменности и инструменты конвертации."
         }
       ]
     },
     {
-      "id": "compute",
-      "title": "Compute и инструменты",
+      "id": "data",
+      "title": "Данные и инструменты",
       "items": [
         {
-          "title": "python.avar.me",
-          "url": "https://python.avar.me",
-          "status": "dev",
-          "description": "Библиотеки со словарём для Python 3."
+          "title": "sources.avar.me",
+          "url": "https://sources.avar.me",
+          "status": "test",
+          "description": "Единый источник правды для словарных данных экосистемы avar.me: исходные jsonl, тексты, книги. Используется при сборке dev/ru/en/de/fr/uk/be/tr.avar.me и других сервисов."
         },
         {
-          "title": "js.avar.me",
-          "url": "https://js.avar.me",
-          "status": "dev",
-          "description": "Клиентские библиотеки для встраивания перевода и словаря на сайты."
+          "title": "forms.avar.me",
+          "url": "https://forms.avar.me",
+          "status": "test",
+          "description": "Сборка и агрегация словоформ аварского языка: список словоформ и частотность по леммам. Данные собираются из sources.avar.me."
+        },
+        {
+          "title": "corrector.avar.me",
+          "url": "https://corrector.avar.me",
+          "status": "test",
+          "description": "Онлайн корректор аварских слов на основе морфологических данных <a href=\"https://forms.avar.me\">forms.avar.me</a>."
+        },
+        {
+          "title": "avar-russian-dictionary",
+          "url": "https://github.com/avar-me/avar-russian-dictionary",
+          "status": "stable",
+          "description": "Исходные данные словаря для <a href=\"https://avar.me\">avar.me</a> и основных ботов."
+        },
+        {
+          "title": "phrasebook",
+          "url": "https://github.com/avar-me/phrasebook",
+          "status": "stable",
+          "description": "Русско-аварский разговорник: датасет из 84 тем и 2783 фраз для NLP, языковых приложений и обучения. Отдельный сайт пока не опубликован."
         },
         {
           "title": "corpus.avar.me",
@@ -88,12 +142,6 @@
           "aliases": ["https://korpus.avar.me"],
           "status": "plan",
           "description": "Текстовый корпус аварского языка: поиск, разметка, примеры употребления."
-        },
-        {
-          "title": "corrector.avar.me",
-          "url": "https://corrector.avar.me",
-          "status": "test",
-          "description": "Онлайн корректор аварского языка."
         },
         {
           "title": "ml.avar.me",
@@ -110,6 +158,24 @@
       ]
     },
     {
+      "id": "libraries",
+      "title": "Библиотеки",
+      "items": [
+        {
+          "title": "python.avar.me",
+          "url": "https://python.avar.me",
+          "status": "dev",
+          "description": "Библиотека со словарём для Python 3 (пакет на PyPI, стадия pre-alpha)."
+        },
+        {
+          "title": "js.avar.me",
+          "url": "https://js.avar.me",
+          "status": "dev",
+          "description": "Клиентская библиотека <code>@avar/dict</code> для встраивания перевода и словаря на сайты."
+        }
+      ]
+    },
+    {
       "id": "mobile",
       "title": "Мобильные приложения",
       "items": [
@@ -117,13 +183,13 @@
           "title": "iOS-приложение",
           "url": "https://ios.avar.me",
           "status": "stable",
-          "description": "Нативное приложение словаря: направления av-ru и ru-av, синхронизация с <a href=\"https://avar.me\">avar.me</a>."
+          "description": "Нативное приложение словаря: направления av-ru и ru-av, синхронизация с <a href=\"https://avar.me\">avar.me</a>. Опубликовано в App Store."
         },
         {
           "title": "Android-приложение",
           "url": "https://android.avar.me",
-          "status": "plan",
-          "description": "Нативное приложение словаря: направления av-ru и ru-av, синхронизация с <a href=\"https://avar.me\">avar.me</a>."
+          "status": "test",
+          "description": "Нативное приложение словаря: направления av-ru и ru-av, синхронизация с <a href=\"https://avar.me\">avar.me</a>. Опубликовано в Google Play, приводится в соответствие с iOS-версией."
         }
       ]
     },
@@ -132,16 +198,22 @@
       "title": "Telegram-боты",
       "items": [
         {
+          "title": "@avar_me_bot",
+          "url": "https://t.me/avar_me_bot",
+          "status": "test",
+          "description": "Новый бот-словарь — обе стороны перевода (av-ru и ru-av) в одном боте, проще и удобнее старых ботов. Постепенно дорабатывается."
+        },
+        {
           "title": "@avarme_bot",
           "url": "https://t.me/avarme_bot",
           "status": "stable",
-          "description": "Бот перевода <strong>аварский → русский</strong> (av-ru)."
+          "description": "Бот перевода <strong>аварский → русский</strong> (av-ru). Работает надёжно уже около десяти лет."
         },
         {
           "title": "@ruavarme_bot",
           "url": "https://t.me/ruavarme_bot",
           "status": "stable",
-          "description": "Бот перевода <strong>русский → аварский</strong> (ru-av)."
+          "description": "Бот перевода <strong>русский → аварский</strong> (ru-av). Работает надёжно уже около десяти лет."
         },
         {
           "title": "@avarme_miniapp_bot",
@@ -164,9 +236,16 @@
       ]
     },
     {
-      "id": "channels",
-      "title": "Каналы и сообщества",
+      "id": "community",
+      "title": "Стикеры, каналы и сообщества",
       "items": [
+        {
+          "title": "Хӏарпик — стикерпак avar.me",
+          "url": "https://stickers.avar.me",
+          "aliases": ["https://t.me/addstickers/AvarMe"],
+          "status": "stable",
+          "description": "Маскот проекта avar.me — ожившая книга аварского словаря. Стикерпак для Telegram."
+        },
         {
           "title": "@avarlangme",
           "url": "https://t.me/avarlangme",
@@ -194,26 +273,20 @@
       ]
     },
     {
-      "id": "dictionaries",
-      "title": "Словари и языковые ресурсы",
+      "id": "learning",
+      "title": "Обучение",
       "items": [
         {
-          "title": "sources.avar.me",
-          "url": "https://sources.avar.me",
-          "status": "test",
-          "description": "Сбор исходных файлов для сервисов avar.me: словари, тексты, книги."
-        },
-        {
-          "title": "avar-russian-dictionary",
-          "url": "https://github.com/avar-me/avar-russian-dictionary",
-          "status": "stable",
-          "description": "Исходные данные словаря для <a href=\"https://avar.me\">avar.me</a> и основных ботов."
-        },
-        {
-          "title": "avar-alphabet",
-          "url": "https://github.com/avar-me/avar-alphabet",
+          "title": "learn.avar.me",
+          "url": "https://learn.avar.me",
           "status": "plan",
-          "description": "Построение подходящего алфавита для аварской письменности."
+          "description": "Обучение: курсы, грамматика и упражнения; связка с <a href=\"https://t.me/avarme_test_bot\">@avarme_test_bot</a>."
+        },
+        {
+          "title": "edu.avar.me",
+          "url": "https://edu.avar.me",
+          "status": "plan",
+          "description": "Образовательные материалы и программы для изучающих язык; дополнение к <a href=\"https://learn.avar.me\">learn.avar.me</a> и тестам в Telegram."
         }
       ]
     },

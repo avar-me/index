@@ -235,6 +235,11 @@ main {
   background: rgba(201, 162, 39, 0.2);
 }
 
+.badge-experiment {
+  color: #a1315f;
+  background: rgba(214, 60, 120, 0.14);
+}
+
 .badge-plan {
   color: #5548a0;
   background: rgba(139, 126, 200, 0.15);

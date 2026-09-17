@@ -1,6 +1,7 @@
 const STATUS = {
   stable: { label: "стабильно", className: "badge-stable" },
   test: { label: "тестирование", className: "badge-test" },
+  experiment: { label: "эксперимент", className: "badge-experiment" },
   dev: { label: "разработка", className: "badge-dev" },
   plan: { label: "в планах", className: "badge-plan" },
   deprecated: { label: "устарело", className: "badge-deprecated" },
