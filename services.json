@@ -69,6 +69,12 @@
           "url": "https://cg.avar.me",
           "status": "test",
           "description": "Реконструкция публикации Cyril Graham в <em>Royal Asiatic Society</em> (1881) — первый известный англо-аварский словарь."
+        },
+        {
+          "title": "claprot.avar.me",
+          "url": "https://claprot.avar.me",
+          "status": "plan",
+          "description": "Французский словарь аварского языка и некоторых его диалектов из книги Юлиуса Клапрота «Voyage au Mont Caucase et en Géorgie» (по итогам путешествия 1807–1808 гг.), с. 299–359. По аналогии с cg.avar.me."
         }
       ]
     },
