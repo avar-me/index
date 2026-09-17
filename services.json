@@ -8,7 +8,7 @@
           "title": "avar.me",
           "url": "https://avar.me",
           "status": "stable",
-          "description": "Главный сайт словаря: направления <strong>аварский → русский</strong> (av-ru) и <strong>русский → аварский</strong> (ru-av). Запущен в 2016-м году. Отдача переработана, включено кэширование на Cloudflare."
+          "description": "Главный сайт словаря: направления <strong>аварский → русский</strong> (av-ru) и <strong>русский → аварский</strong> (ru-av). Запущен в 2016-м году."
         },
         {
           "title": "dev.avar.me",
@@ -26,7 +26,7 @@
           "title": "en.avar.me",
           "url": "https://en.avar.me",
           "status": "experiment",
-          "description": "Аварско-английский и англо-аварский словарь, разметка выполнена с помощью Gemini."
+          "description": "Аварско-английский и англо-аварский словарь."
         },
         {
           "title": "de.avar.me",
@@ -56,13 +56,13 @@
           "title": "tr.avar.me",
           "url": "https://tr.avar.me",
           "status": "experiment",
-          "description": "Аварско-турецкий и турецко-аварский словарь. Первый шаг к серии тюркских словарей (az, kz, uz и другие) и работе над аварской латиницей."
+          "description": "Аварско-турецкий и турецко-аварский словарь."
         },
         {
           "title": "az_slovar.avar.me",
           "url": "https://az_slovar.avar.me",
           "status": "experiment",
-          "description": "Азербайджанско-аварско-русский словарь. Данные извлечены из мобильного приложения «Dictionary in Avar language» (Pathways Publications, CC BY-NC 4.0)."
+          "description": "Азербайджанско-аварско-русский словарь. Включает южные диалекты. Данные извлечены из мобильного приложения «Dictionary in Avar language» (Pathways Publications, CC BY-NC 4.0)."
         },
         {
           "title": "cg.avar.me",
@@ -74,7 +74,7 @@
           "title": "claprot.avar.me",
           "url": "https://claprot.avar.me",
           "status": "plan",
-          "description": "Французский словарь аварского языка и некоторых его диалектов из книги Юлиуса Клапрота «Voyage au Mont Caucase et en Géorgie» (по итогам путешествия 1807–1808 гг.), с. 299–359. По аналогии с cg.avar.me."
+          "description": "Французский словарь аварского языка и некоторых его диалектов из книги Юлиуса Клапрота «Voyage au Mont Caucase et en Géorgie» (по итогам путешествия 1807–1808 гг.). По аналогии с cg.avar.me."
         }
       ]
     },
