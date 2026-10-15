@@ -8,19 +8,19 @@
           "title": "avar.me",
           "url": "https://avar.me",
           "status": "stable",
-          "description": "Главный сайт словаря: направления <strong>аварский → русский</strong> (av-ru) и <strong>русский → аварский</strong> (ru-av). Запущен в 2016-м году."
+          "description": "Главный сайт словаря: направления <strong>аварский → русский</strong> (av-ru) и <strong>русский → аварский</strong> (ru-av). Запущен в 2016-м году, в 2026-м переехал на новую версию (общий шаблон с dev/ru.avar.me) — данные при сборке берутся из <a href=\"https://sources.avar.me\">sources.avar.me</a>."
         },
         {
           "title": "dev.avar.me",
           "url": "https://dev.avar.me",
           "status": "dev",
-          "description": "Стенд новой версии сайта avar.me (av-ru и ru-av). Общий шаблон, из которого собираются языковые словари ru/en/de/fr/uk/be/tr.avar.me — данные при сборке берутся из <a href=\"https://sources.avar.me\">sources.avar.me</a>."
+          "description": "Девелопмент-стенд новой версии веб-приложения avar.me (av-ru и ru-av). Общий шаблон, из которого клонируются языковые словари ru/en/de/fr/uk/be/tr.avar.me — данные при сборке берутся из <a href=\"https://sources.avar.me\">sources.avar.me</a>."
         },
         {
           "title": "ru.avar.me",
           "url": "https://ru.avar.me",
           "status": "test",
-          "description": "Аварско-русский и русско-аварский словарь на новом шаблоне — кандидат на замену словаря на главном сайте."
+          "description": "Аварско-русский и русско-аварский словарь на том же шаблоне, что и avar.me — стейдж для обкатки будущих улучшений перед выкаткой на главный сайт."
         },
         {
           "title": "en.avar.me",
@@ -75,6 +75,12 @@
           "url": "https://claprot.avar.me",
           "status": "plan",
           "description": "Французский словарь аварского языка и некоторых его диалектов из книги Юлиуса Клапрота «Voyage au Mont Caucase et en Géorgie» (по итогам путешествия 1807–1808 гг.). По аналогии с cg.avar.me."
+        },
+        {
+          "title": "dict.avar.me",
+          "url": "https://dict.avar.me",
+          "status": "test",
+          "description": "Все словари экосистемы avar.me, пересобранные во все известные офлайн-форматы (DSL, StarDict, EPUB, Mobi, Kobo, Apple Dictionary, Aard2/Slob, DICT.org, Yomichan, PDF, FB2 и другие) — для GoldenDict, Kobo, Calibre и подобных приложений."
         }
       ]
     },
@@ -189,13 +195,13 @@
           "title": "iOS-приложение",
           "url": "https://ios.avar.me",
           "status": "stable",
-          "description": "Нативное приложение словаря: направления av-ru и ru-av, синхронизация с <a href=\"https://avar.me\">avar.me</a>. Опубликовано в App Store."
+          "description": "Нативное приложение словаря: направления av-ru и ru-av, синхронизация с <a href=\"https://avar.me\">avar.me</a>. Опубликовано в App Store; ios.avar.me — промо-страница и источник обновлений словаря для приложения."
         },
         {
           "title": "Android-приложение",
           "url": "https://android.avar.me",
           "status": "test",
-          "description": "Нативное приложение словаря: направления av-ru и ru-av, синхронизация с <a href=\"https://avar.me\">avar.me</a>. Опубликовано в Google Play, приводится в соответствие с iOS-версией."
+          "description": "Нативное приложение словаря: направления av-ru и ru-av, синхронизация с <a href=\"https://avar.me\">avar.me</a>. Опубликовано в Google Play, приводится в соответствие с iOS-версией; android.avar.me — промо-страница и источник обновлений словаря для приложения."
         }
       ]
     },
@@ -212,14 +218,14 @@
         {
           "title": "@avarme_bot",
           "url": "https://t.me/avarme_bot",
-          "status": "stable",
-          "description": "Бот перевода <strong>аварский → русский</strong> (av-ru). Работает надёжно уже около десяти лет."
+          "status": "deprecated",
+          "description": "Бот перевода <strong>аварский → русский</strong> (av-ru). Работал надёжно около десяти лет; в октябре 2026-го переехал на Telegram Serverless. Заменяется ботом @avar_me_bot."
         },
         {
           "title": "@ruavarme_bot",
           "url": "https://t.me/ruavarme_bot",
-          "status": "stable",
-          "description": "Бот перевода <strong>русский → аварский</strong> (ru-av). Работает надёжно уже около десяти лет."
+          "status": "deprecated",
+          "description": "Бот перевода <strong>русский → аварский</strong> (ru-av). Работал надёжно около десяти лет; в октябре 2026-го переехал на Telegram Serverless. Заменяется ботом @avar_me_bot."
         },
         {
           "title": "@avarme_miniapp_bot",
