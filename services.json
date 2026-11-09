@@ -85,6 +85,25 @@
       ]
     },
     {
+      "id": "mirrors",
+      "title": "Зеркала",
+      "items": [
+        {
+          "title": "cf.avar.me",
+          "url": "https://cf.avar.me",
+          "status": "stable",
+          "description": "Зеркало словаря на Cloudflare — резерв на случай отказа основной инфраструктуры."
+        },
+        {
+          "title": "yandex.avar.me",
+          "url": "https://yandex.avar.me",
+          "aliases": ["https://website.yandexcloud.net/yandex.avar.me/"],
+          "status": "stable",
+          "description": "Зеркало словаря на Yandex Cloud — резерв на случай отказа основной инфраструктуры."
+        }
+      ]
+    },
+    {
       "id": "scripts",
       "title": "Письменность и алфавиты",
       "items": [
